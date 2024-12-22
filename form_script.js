@@ -56,7 +56,7 @@ function validateForm() {
         return false;
     }
     if (!eircodeRegex.test(eircode)) {
-        alert("Eircode must 6 alphanumeric characters.");
+        alert("Eircode must 7 alphanumeric characters.");
         return false;
     }
     return true;
