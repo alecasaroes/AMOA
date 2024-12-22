@@ -76,7 +76,7 @@ function validateRecord(record, index) {
   const nameRegex = /^[a-zA-Z0-9]{1,20}$/;
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const phoneRegex = /^\d{10}$/;
-  const eircodeRegex = /^[A-Za-z0-9]{6}$/;
+  const eircodeRegex = /^[A-Za-z0-9]{7}$/;
 
   if (!nameRegex.test(record.firstName) || !nameRegex.test(record.lastName)) {
     throw new Error(`Validation failed at record ${index}: Invalid name.`)
