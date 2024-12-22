@@ -36,7 +36,7 @@ function validateForm() {
     const nameRegex = /^[a-zA-Z0-9]{1,20}$/;
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     const phoneRegex = /^\d{10}$/;
-    const eircodeRegex = /^[a-zA-Z0-9]{6}$/;
+    const eircodeRegex = /^[a-zA-Z0-9]{7}$/;
     const firstName = document.getElementById("firstName").value;
     const lastName = document.getElementById("lastName").value;
     const email = document.getElementById("email").value;
