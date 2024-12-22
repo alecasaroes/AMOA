@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS userdata (
 INSERT INTO userdata (first_name, last_name, age, email, phone, eircode)
 VALUES 
 ('Alexandre', 'Casaroes', 30, '2024672@student.cct.ie', '0000000000', 'D07A0E1'),
-('Aline', 'Oliveira', 33, '2024391@student.cct.ie', 0000000001, 'D07FX60');
+('Aline', 'Oliveira', 33, '2024391@student.cct.ie', 0100000001, 'D07FX60');
 
 SHOW DATABASES;
 
